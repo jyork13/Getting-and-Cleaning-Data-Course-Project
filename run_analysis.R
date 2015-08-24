@@ -14,6 +14,7 @@ packages<-function(x){
                 require(x,character.only=TRUE)
         }
 }
+packages(plyr)
 packages(dplyr)
 packages(tidyr)
 #library(dplyr)
